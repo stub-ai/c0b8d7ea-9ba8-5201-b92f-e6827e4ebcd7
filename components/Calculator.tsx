@@ -31,6 +31,8 @@ const Calculator = () => {
           <button name="**" onClick={handleClick} className="col-span-1 bg-gray-200 h-20 rounded text-2xl">^</button>
           <button onClick={() => setResult(Math.sqrt(parseFloat(result)).toString())} className="col-span-1 bg-gray-200 h-20 rounded text-2xl">√</button>
           <button onClick={clear} className="col-span-4 bg-red-500 h-20 rounded text-2xl text-white">Clear</button>
+          {/* New button for exponential operation */}
+          <button name="**" onClick={handleClick} className="col-span-1 bg-gray-200 h-20 rounded text-2xl">Exp</button>
         </div>
       </div>
     </div>
